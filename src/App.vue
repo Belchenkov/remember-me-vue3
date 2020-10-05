@@ -1,18 +1,10 @@
 <template>
-  <ul>
-    <learning-resource
-        v-for="res in storedResources"
-        :key="res.id"
-        :title="res.title"
-        :description="res.description"
-        :link="res.link"
-    />
-  </ul>
+  <stored-resource :resources="storedResources" />
 </template>
 
 <script>
 
-import LearningResource from "@/components/learning-resources/LearningResource";
+import StoredResource from "@/components/learning-resources/StoredResource";
 
 export default {
   name: 'App',
@@ -41,10 +33,23 @@ export default {
     }
   },
   components: {
-    LearningResource
+    StoredResource
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Miriam Libre', sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
 </style>
