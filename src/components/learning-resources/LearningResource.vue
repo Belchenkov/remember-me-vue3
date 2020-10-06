@@ -3,7 +3,7 @@
     <base-card>
       <header>
         <h3>{{ title }}</h3>
-        <base-button>
+        <base-button mode="danger">
           <i class="far fa-trash-alt mr-5"></i>
           Delete
         </base-button>

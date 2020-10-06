@@ -18,8 +18,8 @@ export default {
   button {
     padding: 0.75rem 1.5rem;
     font-family: inherit;
-    background-color: #a52939;
-    border: 1px solid #a52939;
+    background-color: #374051;
+    border: 1px solid #374051;
     color: white;
     cursor: pointer;
   }
@@ -29,6 +29,19 @@ export default {
     background-color: #e0102a;
     border-color: #e0102a;
   }
+
+  .danger {
+    background-color: #a52939;
+    border: 1px solid #a52939;
+  }
+
+  button:hover.danger,
+  button:active.danger {
+    background-color: #e0102a;
+    border-color: #e0102a;
+  }
+
+
 
   .flat {
     background-color: transparent;
