@@ -22,6 +22,9 @@ export default {
     border: 1px solid #374051;
     color: white;
     cursor: pointer;
+    font-weight: bold;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .7);
+    transition: all .2s ease-in-out;
   }
 
   button:hover,
@@ -41,7 +44,27 @@ export default {
     border-color: #e0102a;
   }
 
+  .save {
+    background-color: #b9ca15;
+    border: 1px solid #b9ca15;
+  }
 
+  button:hover.save,
+  button:active.save {
+    background-color: #d1e50a;
+    border-color: #d1e50a;
+  }
+
+  .add {
+    background-color: #28702a;
+    border: 1px solid #28702a;
+  }
+
+  button:hover.add,
+  button:active.add {
+    background-color: #19b31d;
+    border-color: #19b31d;
+  }
 
   .flat {
     background-color: transparent;
