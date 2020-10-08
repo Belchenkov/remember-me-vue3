@@ -4,7 +4,7 @@
 
 ### [Demo](http://remember-me-ab.surge.sh)
 
-![screenshot](https://github.com/belchenkov)
+![screenshot](https://github.com/Belchenkov/remember-me-vue3/blob/master/public/assets/screen.png)
 
 ## Project setup
 ```
