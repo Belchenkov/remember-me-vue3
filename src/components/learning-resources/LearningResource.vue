@@ -3,7 +3,7 @@
     <base-card>
       <header>
         <h3>{{ title }}</h3>
-        <base-button mode="danger">
+        <base-button mode="danger" @click="deleteResource(id)">
           <i class="far fa-trash-alt mr-5"></i>
           Delete
         </base-button>
@@ -22,9 +22,13 @@ export default {
   components: {
   },
   props: [
+      'id',
       'title',
       'description',
       'link',
+  ],
+  inject: [
+      'deleteResource'
   ]
 }
 </script>
